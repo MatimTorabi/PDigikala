@@ -1,0 +1,115 @@
+.auction {
+  width: 100%;
+  height: 870px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .auction-center {
+    width: 95%;
+    height: 850px;
+    border-radius: 17px;
+    border: 1px solid lightgrey;
+
+    .auction-center-top {
+      border-top-right-radius: 17px;
+      border-top-left-radius: 17px;
+      width: 100%;
+      height: 85px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 10px;
+      .auction-center-top-img {
+        width: 24px;
+        height: 24px;
+      }
+      .auction-center-top-p {
+        width: fit-content;
+        height: fit-content;
+        font-size: 20px;
+        font-family: var(--fontFamily);
+      }
+    }
+    .auction-center-bottom {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: calc(850px - 85px);
+      .auction-center-bottom-main {
+        width: 98%;
+        height: 100%;
+
+        .auction-center-bottom-main-row {
+          display: flex;
+          justify-content: flex-start;
+          width: 100%;
+          height: 255px;
+          .auction-center-bottom-main-item {
+            width: 200px;
+            height: 255px;
+            border-left: 1px solid lightgray;
+            border-bottom: 1px solid lightgray;
+            .link {
+              text-decoration: none;
+              display: flex;
+              justify-content: center;
+              .imag {
+                margin-top: 20px;
+                width: 150px;
+                height: 150px;
+                background-color: blue;
+                img {
+                  width: 150px;
+                  height: 150px;
+                }
+              }
+              .text {
+                width: 170px;
+                height: 40px;
+                margin: 20px auto;
+                .price {
+                  width: 100%;
+                  display: flex;
+                  justify-content: center;
+                  flex-flow: row-reverse wrap;
+                  font-family: var(--fontFamily);
+                  font-size: 14px;
+                  .price-img {
+                    width: 16px;
+                    height: 16px;
+                    margin-right: 2px;
+                  }
+                  .price-discount {
+                    margin-left: 53px;
+                    background-color: crimson;
+                    border-radius: 10px;
+                    font-size: 13px;
+                    padding: 0px 10px;
+                    color: whitesmoke;
+                  }
+                }
+                .discount {
+                  width: 100%;
+                  text-decoration: line-through;
+                  text-align: left;
+                  font-family: var(--fontFamily);
+                  color: lightgray;
+                  font-size: 14px;
+                  padding-left: 15px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.borderLess {
+  border-left: none !important;
+}
+.borderLessB {
+  border-bottom: none !important;
+}

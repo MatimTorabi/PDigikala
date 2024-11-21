@@ -1,0 +1,176 @@
+.header {
+  width: 100%;
+  height: 170px;
+  box-shadow: 0 1px 2px gray;
+  position: sticky;
+  top: 0;
+  z-index: 100000;
+  background-color: whitesmoke;
+  .header-top {
+    width: inherit;
+    height: 60px;
+    background-color: lightskyblue;
+    .header-img {
+      width: inherit;
+      height: inherit;
+      object-fit: cover;
+    }
+  }
+  .header-center {
+    width: inherit;
+    height: 60px;
+    display: flex;
+    .header-center-logo {
+      width: 17%;
+      height: inherit;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      .logo-img {
+        width: 195px;
+        height: 30px;
+      }
+    }
+    .header-center-search {
+      width: 63%;
+      height: inherit;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      padding-right: 20px;
+      .header-center-search-img {
+        position: relative;
+        right: 40px;
+      }
+      [type="text"] {
+        width: 600px;
+        height: 40px;
+        background-color: #f0f0f1;
+        border: none;
+        outline: none;
+        border-radius: 7px;
+        padding-right: 55px;
+        &::placeholder {
+          font-family: var(--fontFamily);
+          font-size: 12px;
+        }
+      }
+    }
+    .header-center-register {
+      width: 20%;
+      height: inherit;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      padding-right: 40px;
+      column-gap: 15px;
+      .header-center-register-link {
+        display: block;
+        width: 130px;
+        height: 40px;
+        border: 1px solid lightgray;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+        text-decoration: none;
+        font-family: var(--fontFamily);
+        font-size: 12px;
+        color: #2b2b2b;
+        border-radius: 7px;
+        span {
+          display: inline-block;
+          width: 2px;
+          height: 12px;
+          background-color: #2b2b2b;
+        }
+      }
+      span {
+        display: inline-block;
+        width: 1px;
+        height: 25px;
+        background-color: lightgray;
+      }
+      .header-center-registercart-img {
+        margin-top: 5px;
+      }
+    }
+  }
+  .header-bottom {
+    width: inherit;
+    height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    .right {
+      width: 82%;
+      height: inherit;
+      padding-right: 25px;
+      .header-bottom-nav {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row wrap;
+        div {
+          width: fit-content;
+          height: inherit;
+          display: flex;
+          align-items: center;
+          span {
+            display: inline-block;
+            width: 1px;
+            height: 15px;
+            background-color: lightgray;
+          }
+          a {
+            display: block;
+            width: fit-content;
+            height: inherit;
+            padding: 0px 10px;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            font-family: var(--fontFamily);
+            font-size: 12px;
+            color: gray;
+            &:hover {
+              color: deeppink;
+            }
+            img {
+              color: #a1a3a8;
+              padding-left: 2px;
+              width: 18px;
+              height: 18px;
+              object-fit: cover;
+            }
+          }
+        }
+      }
+    }
+    .left {
+      width: 18%;
+      height: inherit;
+      font-family: var(--fontFamily);
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding-right: 30px;
+      column-gap: 10px;
+      color: #3f4064;
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+.activeMenu {
+  font-weight: bold !important;
+  font-size: 14px !important;
+  color: #2b2b2b !important;
+}
+.activeSvg {
+  width: 20px !important;
+  height: 20px !important;
+}

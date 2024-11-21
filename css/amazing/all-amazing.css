@@ -1,0 +1,333 @@
+.all-amazing {
+  width: 100%;
+  height: 5270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .all-amazing-center {
+    width: 95%;
+    height: calc(100% - 60px);
+    .all-amazing-center-title {
+      width: 100%;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      .all-amazing-center-title-span {
+        font-family: var(--fontFamily);
+        font-size: 16px;
+      }
+    }
+    .all-amazing-center-main {
+      width: 100%;
+      height: inherit;
+      display: flex;
+      .all-amazing-center-filter {
+        width: 270px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        height: 585px;
+        display: flex;
+        justify-content: center;
+        .all-amazing-center-filter-center {
+          width: 240px;
+          height: 100%;
+          .all-amazing-center-filter-center-item-parent {
+            width: 100%;
+            height: 65px;
+            display: flex;
+            .all-amazing-center-filter-center-item-parent-right {
+              width: 50%;
+              height: 65px;
+              display: flex;
+              align-items: center;
+              .all-amazing-center-filter-center-item-parent-right-span {
+                font-family: var(--fontFamily);
+                font-size: 20px;
+                color: #2b2b2b;
+              }
+            }
+            .all-amazing-center-filter-center-item-parent-left {
+              width: 50%;
+              height: 65px;
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
+              .all-amazing-center-filter-center-item-parent-left-span {
+                font-family: var(--fontFamily);
+                font-size: 13px;
+                color: #19bfd3;
+                cursor: pointer;
+              }
+            }
+          }
+
+          .all-amazing-center-filter-center-item {
+            width: 100%;
+            height: 55px;
+            display: flex;
+            .all-amazing-center-filter-center-item-right {
+              width: 70%;
+              height: 55px;
+              display: flex;
+              align-items: center;
+              .all-amazing-center-filter-center-item-right-span {
+                font-family: var(--fontFamily);
+                font-size: 15px;
+                color: #2b2b2b;
+                cursor: pointer;
+              }
+            }
+            .all-amazing-center-filter-center-item-left {
+              width: 30%;
+              height: 55px;
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
+              .all-amazing-center-filter-center-item-left-img {
+                width: 24px;
+                height: 24px;
+                cursor: pointer;
+              }
+            }
+          }
+
+          .all-amazing-center-filter-center-item-child {
+            width: 100%;
+            height: 55px;
+            display: flex;
+            .all-amazing-center-filter-center-item-child-right {
+              width: 70%;
+              height: 55px;
+              display: flex;
+              align-items: center;
+              column-gap: 5px;
+              .all-amazing-center-filter-center-item-child-right-span {
+                cursor: pointer;
+                font-family: var(--fontFamily);
+                font-size: 15px;
+                color: #2b2b2b;
+              }
+              .all-amazing-center-filter-center-item-child-right-img {
+                width: 18px;
+                height: 18px;
+              }
+            }
+            .all-amazing-center-filter-center-item-child-left {
+              width: 30%;
+              height: 55px;
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
+              .all-amazing-center-filter-center-item-child-left-btn {
+                cursor: pointer;
+                width: 40px;
+                height: 20px;
+                border: 2px solid #a9abb0;
+                border-radius: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                .all-amazing-center-filter-center-item-child-left-btn-item {
+                  margin-left: 5px;
+                  width: 10px;
+                  height: 10px;
+                  border-radius: 50px;
+                  background-color: #a1a3a8;
+                }
+              }
+            }
+          }
+        }
+      }
+      .all-amazing-center-body {
+        width: calc(100% - 270px);
+        height: inherit;
+        display: flex;
+        justify-content: flex-end;
+        .all-amazing-center-body-center {
+          width: 910px;
+          height: 100%;
+          .all-amazing-center-body-center-title {
+            width: inherit;
+            height: 65px;
+            display: flex;
+            flex-flow: row wrap;
+            border-bottom: 1px solid lightgray;
+            .all-amazing-center-body-center-title-right {
+              width: 90%;
+              height: 65px;
+              .all-amazing-center-body-center-title-right-nav {
+                width: 100%;
+                height: inherit;
+                display: flex;
+                flex-flow: row wrap;
+                .all-amazing-center-body-center-title-right-div {
+                  width: fit-content;
+                  height: inherit;
+                  .all-amazing-center-body-center-title-right-div-span {
+                    display: block;
+                    cursor: pointer;
+                    width: fit-content;
+                    height: inherit;
+                    padding: 0px 7px;
+                    display: flex;
+                    font-family: var(--fontFamily);
+                    font-size: 12px;
+                    align-items: center;
+                    color: gray;
+                  }
+                }
+              }
+            }
+            .all-amazing-center-body-center-title-left {
+              width: 10%;
+              height: 65px;
+              display: flex;
+              flex-flow: row wrap;
+              justify-content: flex-end;
+              .all-amazing-center-body-center-title-left-div {
+                width: fit-content;
+                height: inherit;
+                .all-amazing-center-body-center-title-left-div-span {
+                  display: block;
+                  cursor: pointer;
+                  width: fit-content;
+                  height: inherit;
+                  display: flex;
+                  font-family: var(--fontFamily);
+                  font-size: 12px;
+                  align-items: center;
+                  color: gray;
+                }
+              }
+            }
+          }
+          .all-amazing-center-body-center-main {
+            width: inherit;
+            height: calc(100% - 65px);
+            .all-amazing-center-body-center-main-row {
+              display: flex;
+              width: 100%;
+              display: 510px;
+              justify-content: flex-start;
+              .all-amazing-center-body-center-main-item {
+                width: 305px;
+                height: 510px;
+                cursor: pointer;
+                border-left: 1px solid lightgray;
+                border-bottom: 1px solid lightgray;
+                &:hover {
+                  box-shadow: 0 0 10px #a1a3a8;
+                }
+                .all-amazing-center-body-center-main-item-link-img-1 {
+                  width: 116px;
+                  height: 14px;
+                  margin-top: 20px;
+                  margin-right: 10px;
+                }
+                .all-amazing-center-body-center-main-item-link-img-2 {
+                  width: 240px;
+                  height: 240px;
+                  display: block;
+                  margin: 10px auto;
+                }
+                .all-amazing-center-body-center-main-item-link-text {
+                  width: 95%;
+                  height: 50px;
+                  display: flex;
+                  align-items: center;
+                  .all-amazing-center-body-center-main-item-link-text-h3 {
+                    font-family: var(--fontFamily);
+                    margin-right: 10px;
+                    font-size: 12px;
+                    display: -webkit-inline-box;
+                    overflow: hidden;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    line-height: 25px;
+                    text-align: start;
+                  }
+                }
+                .status {
+                  margin-top: 5px;
+                  width: 170px;
+                  height: 30px;
+                  display: flex;
+                  justify-content: flex-start;
+                  padding-right: 10px;
+                  .status-img {
+                    width: 18px;
+                    height: 18px;
+                  }
+                  .status-p {
+                    font-family: var(--fontFamily);
+                    color: #bdbfc2;
+                    font-size: 12px;
+                    padding-right: 3px;
+                  }
+                }
+                .text {
+                  width: 95%;
+                  height: 50px;
+                  .price {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    flex-flow: row-reverse wrap;
+                    font-family: var(--fontFamily);
+                    font-size: 14px;
+                    .img-price {
+                      width: 16px;
+                      height: 16px;
+                      margin-right: 2px;
+                    }
+                    .price-discount {
+                      margin-left: 160px;
+                      background-color: crimson;
+                      border-radius: 10px;
+                      font-size: 13px;
+                      padding: 0px 10px;
+                      color: whitesmoke;
+                    }
+                  }
+                  .discount {
+                    width: 100%;
+                    text-decoration: line-through;
+                    text-align: left;
+                    font-family: var(--fontFamily);
+                    color: lightgray;
+                    font-size: 14px;
+                    padding-left: 30px;
+                  }
+                }
+                .time {
+                  width: 100%;
+                  height: 60px;
+                  display: flex;
+                  justify-content: flex-start;
+                  align-items: flex-end;
+                  flex-flow: row-reverse wrap;
+                  column-gap: 1px;
+                  font-family: var(--fontFamily);
+                  font-size: 12px;
+                  padding-left: 10px;
+                  color: #ef394e;
+                  .colon {
+                    box-shadow: none !important;
+                    font-family: none;
+                    color: #ef394e;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.activTitle {
+  font-weight: bold !important;
+  font-size: 13px !important;
+  color: #2b2b2b !important;
+}

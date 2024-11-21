@@ -1,0 +1,93 @@
+.sopermarket{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    .sopermarket-center{
+        width: 95%;
+        height: inherit;
+        position: relative;
+        background-color: #EBEEED;
+        border-radius: 20px;
+        .sopermarket-center-link{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            text-decoration: none;
+            .sopermarket-center-link-right{
+                width: 50%;
+                height: inherit;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: flex-start;
+                column-gap: 15px;
+                align-items: center;
+                padding-right: 30px;
+                .sopermarket-center-img-1{
+                    width: 66px;
+                    height: 62px;
+                }
+                .sopermarket-center-img-2{
+                    width: 250px;
+                    height: 28px;
+                }
+                .sopermarket-center-discount{
+                    width: 110px;
+                    height: 30px;
+                    background-color: #2F9A45;
+                    text-align: center;
+                    font-family: var(--fontFamily);
+                    font-size: 14px;
+                    line-height: 30px;
+                    color: whitesmoke;    
+                    border-radius: 16px;
+                }
+            }
+            
+        }
+        .sopermarket-center-link-left{
+            width: 45%;
+            height: 110px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0;
+            a{
+                display: block;
+                width: 74px;
+                height: 74px;
+                text-decoration: none;
+                div{
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                    img{
+                        border-radius: 50%;
+                        width: 100%;
+                        height: 100%;
+
+                    }
+                    span{
+                        display: inline-block;  
+                        padding: 5px;
+                        border-radius: 10px;
+                        background-color: crimson;
+                        font-family: var(--fontFamily);
+                        color: whitesmoke;
+                        position: absolute;
+                        bottom: -20px;
+                        font-size: 13px;
+                        right: 0px;
+                    }
+                }
+            }
+        }
+    }
+}

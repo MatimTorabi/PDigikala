@@ -1,0 +1,94 @@
+.amazing-discount {
+  width: 100%;
+  height: 135px;
+  background: rgb(20, 220, 217);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .amazing-discount-center {
+    width: 95%;
+    background-color: #9a1e87;
+    height: 115px;
+    border-radius: 20px;
+    .amazing-discount-center-link {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      text-decoration: none;
+      .amazing-discount-center-link-right {
+        width: 515px;
+        height: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        column-gap: 15px;
+        align-items: center;
+        padding-right: 30px;
+        .amazing-discount-center-img-1 {
+          width: 66px;
+          height: 62px;
+        }
+        .amazing-discount-center-img-2 {
+          width: 250px;
+          height: 28px;
+        }
+      }
+      .amazing-discount-center-link-center {
+        width: 515px;
+        height: 100%;
+        z-index: 100;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        div {
+          width: 74px;
+          height: 74px;
+          position: relative;
+          img {
+            border-radius: 50%;
+            width: 100%;
+            height: 100%;
+          }
+          span {
+            width: 30px;
+            height: 15px;
+            border-radius: 10px;
+            background-color: crimson;
+            font-family: var(--fontFamily);
+            color: whitesmoke;
+            position: absolute;
+            bottom: -5px;
+            font-size: 12px;
+            right: 0px;
+            padding-right: 5px;
+          }
+        }
+      }
+      .amazing-discount-center-link-left {
+        width: calc(100% - 1030px);
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-right: 10px;
+        .amazing-discount-center-link-left-item {
+          width: 145px;
+          height: 50px;
+          background-color: #ffffff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          column-gap: 10px;
+          font-family: var(--fontFamily);
+          font-size: 12px;
+          line-height: 30px;
+          color: #9a1e88;
+          border-radius: 25px;
+        }
+      }
+    }
+  }
+}

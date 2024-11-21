@@ -1,0 +1,29 @@
+.sopermarket-pin {
+  width: 130px;
+  height: 55px;
+  border-radius: 35px;
+  background-color: #029a49;
+  position: fixed;
+  left: 20px;
+  bottom: 30px;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    text-decoration: none;
+    p {
+      font-family: var(--fontFamily);
+      font-size: 17px;
+      color: #ffffff;
+    }
+    img {
+      width: 28px;
+      height: 60px;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+.amazing-category {
+  width: 100%;
+  height: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .amazing-category-center {
+    width: 95%;
+    height: 165px;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .swiper-slide-item {
+        width: inherit;
+        height: inherit;
+        background-color: #f0f0f1;
+        border-radius: 10px;
+        .swiper-slide-item-link {
+          .swiper-slide-item-img {
+            width: 90px;
+            height: 90px;
+            margin: 10px auto;
+          }
+          .swiper-slide-item-span {
+            font-family: var(--fontFamily);
+            font-size: 12px;
+          }
+        }
+      }
+      .swiper-slide-item-center {
+        width: inherit;
+        height: inherit;
+        .swiper-slide-item-center-link {
+          .swiper-slide-item-center-link-img {
+            width: 90px;
+            height: 90px;
+            margin: 10px auto;
+          }
+          .swiper-slide-item-center-link-text {
+            font-family: var(--fontFamily);
+            font-size: 12px;
+            margin: 10px auto;
+            width: 105px;
+          }
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
