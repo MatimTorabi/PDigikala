@@ -28,6 +28,9 @@
         height: 585px;
         display: flex;
         justify-content: center;
+        position: sticky;
+        top: 0;
+        right: 0;
         .all-amazing-center-filter-center {
           width: 240px;
           height: 100%;
